@@ -7,8 +7,6 @@ import java.util.ArrayList;
 public class KMedias {
 
 	private final float TOLERANCIA = (float) 0.01;
-	private final int PESO_EXPONENCIAL = 2;
-	private int nClases; 
 	private ArrayList<String> nombreClase;
 	/*
 	 * U es la matriz con los grados de pertenencia a cada clase.
@@ -25,7 +23,6 @@ public class KMedias {
 		this.leerFicheroMuestras();
 		this.inicializarCentros();
 		this.inicializarU();
-		this.nClases = 2;
 	}
 	
 
